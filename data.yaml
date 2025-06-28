@@ -3,7 +3,7 @@ train: train/images
 val: valid/images
 test: test/images
 
-nc: 9
+nc: 10
 names:
     0: Apple
     1: Banana
@@ -14,3 +14,4 @@ names:
     6: Corn
     7: Tomato
     8: Strawberry
+    9: Carrot

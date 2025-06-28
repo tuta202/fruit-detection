@@ -5,6 +5,9 @@ def update_class_ids(label_folder, old_id, new_id):
         for filename in filenames:
             if not filename.endswith('.txt'):
                 continue
+                
+            # if not filename.startswith('tomato'):
+            #     continue
 
             file_path = os.path.join(dirpath, filename)
 
@@ -26,6 +29,6 @@ def update_class_ids(label_folder, old_id, new_id):
 
     print(f"✅ Successfully updated class_id from {old_id} to {new_id} in {label_folder}")
 
-update_class_ids('datasets/corn/train/labels', 0, 80)
-update_class_ids('datasets/corn/valid/labels', 0, 80)
-update_class_ids('datasets/corn/test/labels', 0, 80)
+update_class_ids('datasets/fruit/train/labels', 0, 7)
+update_class_ids('datasets/fruit/valid/labels', 0, 7)
+update_class_ids('datasets/fruit/test/labels', 0, 7)

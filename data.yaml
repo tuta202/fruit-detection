@@ -3,15 +3,14 @@ train: train/images
 val: valid/images
 test: test/images
 
-nc: 10
+nc: 9
 names:
     0: Apple
     1: Banana
     2: Grape
     3: Orange
     4: Pineapple
-    5: Watermelon    
+    5: Watermelon   
     6: Corn
-    7: Tomato
-    8: Strawberry
-    9: Carrot
+    7: Carrot
+    8: Dragon Fruit

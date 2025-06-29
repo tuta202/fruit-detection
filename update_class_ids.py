@@ -29,6 +29,6 @@ def update_class_ids(label_folder, old_id, new_id):
 
     print(f"✅ Successfully updated class_id from {old_id} to {new_id} in {label_folder}")
 
-update_class_ids('datasets/fruit/train/labels', 0, 9)
-update_class_ids('datasets/carrot/valid/labels', 0, 9)
-update_class_ids('datasets/carrot/test/labels', 0, 9)
+update_class_ids('datasets/dragonfruit/train/labels', 0, 8)
+update_class_ids('datasets/dragonfruit/valid/labels', 0, 8)
+update_class_ids('datasets/dragonfruit/test/labels', 0, 8)

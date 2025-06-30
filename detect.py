@@ -5,7 +5,7 @@ model = YOLO("./runs/detect/train/weights/best.pt")  # pretrained YOLO11n model
 # model = YOLO("yolo11n.pt")  
 
 # Run batched inference on a list of images
-results = model(["./test.png"])  # return a list of Results objects
+results = model(["./test_images/test.png"])  # return a list of Results objects
 
 # Process results list
 for result in results: 
